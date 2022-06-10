@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="dist/img/profile.png" >
+    <title>Muazhri-UI/UX Designer</title>
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;600&family=Montserrat:wght@400;600&family=Poppins:wght@300&family=Port+Lligat+Sans&display=swap" rel="stylesheet">  
+</head>
+<body class="bg-primary">
+    <!-- navbar section-->
+    <header class="absolute top-0 left-0 w-full flex item-center z-10">
+        <div class="container">
+            <div class="flex items-center
+            justify-between relative">
+                <div class="px-4">
+                    <a href="#home" class="font-bold text-lg block py-6 text-white">Mu<span class="text-secondary">Azhri.</span></a>
+                </div>
+                <div class="flex items-center px-4">
+                    <button id="hamburger" name="hamburger" class="block absolute right-4 lg:hidden">
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+                    </button>
+                    
+                    <nav id="nav-menu" class="hidden absolute py-5 bg-primary shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                        <ul class="block lg:flex right-4">
+                            <li class="group">
+                                <a href="#home" class="text-base text-white py-2 mx-8 flex group-hover:text-secondary">Home</a>
+                            </li>
+                            <li class="group">
+                                <a href="#about" class="text-base text-white py-2 mx-8 flex group-hover:text-secondary">About</a>
+                            </li>
+                            <li class="group">
+                                <a href="#portfolio" class="text-base text-white py-2 mx-8 flex group-hover:text-secondary">Portfolio</a>
+                            </li>
+                            <li class="group">
+                                <a href="#skills" class="text-base text-white py-2 mx-8 flex group-hover:text-secondary">Skills</a>
+                            </li>
+                            <li class="group">
+                                <a href="#contact" class="text-base text-white py-2 mx-8 flex group-hover:text-secondary">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <!-- enc navbar section-->
+    <!-- Hero Section -->
+    <section id="home" class="pt-32">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full self-center px-4 lg:w-1/2">
+                    <h1 class="text-base font-medium text-secondary md:text-xl mb-3">Hi, My Name is 
+                        <span class="font-bold text-white text-3xl lg:text-4xl"><br>M Azis Muhemin Tohari</span></h1>
+                    <h2 class="font-semibold text-white lg:text-2xl">i am <span class="text-secondary inline-flex overflow-x-hidden animate-type group-hover:animate-type-reverse whitespace-nowrap text-brand-accent will-change-transform infinite">UI/UX Designer</span>
+                    </h2>
+                    <p class="font-medium text-white mb-10 reading-relaxed mt-5">currently a student of narotama university
+                        information systems</p>
+
+                        <a href="https://drive.google.com/file/d/1t1HBoIDJ5Jc2NOF__jPSR4A4I1HmmZXP/view?ths=true" class="text-base font-semibold text-white border-secondary border-2  py-3 px-8 rounded-full hover:shadow-lg hover:bg-secondary  hover:text-primary transition duration-300 ease-in-out">Download CV</a>
+                </div>
+                <div class="w-full self-end lg:w-1/2">
+                    <div class="relative mt-10">
+                        <img src="dist/img/profile.png" alt="azis"
+                        class="max-w-full mx-auto" width="350">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end Hero Section -->
+    <!-- about section-->
+    <section id="about" class="pt-36 mb-32">
+        <div class="container" data-aos="fade-up" data-aos-duration="7000" data-aos-offset="300">
+            <div class="flex flex-wrap">
+                <div class="w-full px-4 text-center">
+                    <h2 class="font-bold text-secondary mb-3 lg:text-2xl mt-20">About Me</h2>
+                    <p class="font-regular text-base text-white mt-5">hello, my name is M Azis Muhemin Tohari, I have loved the internet since I was young and have started to learn and develop website applications on a self-taught starting from 2017, I am currently 20 years old, even though I am relatively young but I have skills that support me in this field. society 5.0 era, Graphic Designer, UI/UX Designer, Front-End Development</p>
+                </div>
+                <!-- icon social media -->
+                <div class=" w-full px-4 flex items-center mt-7 justify-center">
+                    <!-- ig -->
+                    <a href="https://www.instagram.com/muazhri_/" target="blank" class="w-10 h-10 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-secondary hover:bg-primary hover:text-secondary text-slate-400">
+                        <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="fill-current"><title>Instagram</title><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/></svg>
+                    </a>
+
+
+                    <!-- Dribbble -->
+                    <a href="https://dribbble.com/Muhaz" target="blank" class="w-10 h-10 mr-3 rounded-full flex justify-center items-center border border-slate-300
+                    hover:border-secondary hover:bg-primary hover:text-secondary text-slate-400">
+                    <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="fill-current"><title>Dribbble</title><path d="M12 24C5.385 24 0 18.615 0 12S5.385 0 12 0s12 5.385 12 12-5.385 12-12 12zm10.12-10.358c-.35-.11-3.17-.953-6.384-.438 1.34 3.684 1.887 6.684 1.992 7.308 2.3-1.555 3.936-4.02 4.395-6.87zm-6.115 7.808c-.153-.9-.75-4.032-2.19-7.77l-.066.02c-5.79 2.015-7.86 6.025-8.04 6.4 1.73 1.358 3.92 2.166 6.29 2.166 1.42 0 2.77-.29 4-.814zm-11.62-2.58c.232-.4 3.045-5.055 8.332-6.765.135-.045.27-.084.405-.12-.26-.585-.54-1.167-.832-1.74C7.17 11.775 2.206 11.71 1.756 11.7l-.004.312c0 2.633.998 5.037 2.634 6.855zm-2.42-8.955c.46.008 4.683.026 9.477-1.248-1.698-3.018-3.53-5.558-3.8-5.928-2.868 1.35-5.01 3.99-5.676 7.17zM9.6 2.052c.282.38 2.145 2.914 3.822 6 3.645-1.365 5.19-3.44 5.373-3.702-1.81-1.61-4.19-2.586-6.795-2.586-.825 0-1.63.1-2.4.285zm10.335 3.483c-.218.29-1.935 2.493-5.724 4.04.24.49.47.985.68 1.486.08.18.15.36.22.53 3.41-.43 6.8.26 7.14.33-.02-2.42-.88-4.64-2.31-6.38z"/></svg>
+                    </a>
+
+                    <!-- github -->
+                    <a href="https://github.com/muazhri" target="blank" class="w-10 h-10 mr-3 rounded-full flex justify-center items-center border border-slate-300
+                    hover:border-secondary hover:bg-primary hover:text-secondary text-slate-400">
+                    <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="fill-current"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+
+                    </a>
+                    <!-- email -->
+                    <a href="mailto:muhaiminaziz216@gmail.com" target="blank" class="w-10 h-10 mr-3 rounded-full flex justify-center items-center border border-slate-300
+                    hover:border-secondary hover:bg-primary hover:text-secondary text-slate-400">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" class="fill-current" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 128C0 92.65 28.65 64 64 64H448C483.3 64 512 92.65 512 128V384C512 419.3 483.3 448 448 448H64C28.65 448 0 419.3 0 384V128zM48 128V150.1L220.5 291.7C241.1 308.7 270.9 308.7 291.5 291.7L464 150.1V127.1C464 119.2 456.8 111.1 448 111.1H64C55.16 111.1 48 119.2 48 127.1L48 128zM48 212.2V384C48 392.8 55.16 400 64 400H448C456.8 400 464 392.8 464 384V212.2L322 328.8C283.6 360.3 228.4 360.3 189.1 328.8L48 212.2z"/></svg>
+                    </a>
+                    
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end about section-->
+    <!-- portfolio section -->
+    <section id="portfolio" class="pt-36 pb-16">
+        <div class="container" data-aos="fade-up" data-aos-duration="7000" data-aos-offset="300">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-bold text-lg text-secondary mb-4 lg:text-2xl">Portfolio</h4>
+                    <p class="text-base
+                    text-medium text-white mt-5">below is my latest work, consisting of web design and mobile design</p>
+                </div>
+            </div>
+
+
+            <div class="w-full px-4 flex flex-wrap justify-center">
+                <div class=" max-w-xl mx-auto mb-12 p-4 md:w-1/2" data-aos="fade-right" data-aos-offset="300">
+                    <div class="rounded-md shadow-md overflow-hidden hover:border-2 hover:border-secondary">
+                        <img src="dist/img/Frame 32.png" alt="service-online" width="w-250px" >
+                    </div>
+                    <h3 class="font-semibold text-xl text-secondary mt-5 mb-5">Mobile Apps health consultation</h3>
+                    <p class="font-medium text-base text-sky-50">I made this design to fulfill the task of the Narotama University faculty.</p>
+                    <a href="https://www.figma.com/file/bjpCYhnExwris5EbAwyRKE/KULIAH?node-id=555%3A2990" class="text-secondary"> View</a>
+                </div>
+
+                <div class="mb-12 p-4 md:w-1/2" data-aos="fade-left" data-aos-offset="300">
+                    <div class="rounded-md shadow-md overflow-hidden hover:border-2 hover:border-secondary">
+                        <img src="dist/img/frame 13.png" alt="online-course" width="w-250px" >
+                    </div>
+                    <h3 class="font-semibold text-xl text-secondary mt-5 mb-5">Mobile Apps Online Course</h3>
+                    <p class="font-medium text-base text-sky-50">I made this design when I took part in the GEMASTIK competition in 2021.</p>
+                    <a href="https://www.figma.com/file/RsgIQQsmpz2oQkqM3yKN1d/gemastik-2021?node-id=0%3A1" class="text-secondary"> View</a>
+                </div>
+
+                <div class="mb-12 p-4 md:w-1/2" data-aos="fade-up" data-aos-offset="300">
+                    <div class="rounded-md shadow-md overflow-hidden hover:border-2 hover:border-secondary">
+                        <img src="dist/img/sikrepma.png" alt="sikrepma" width="w-250px" >
+                    </div>
+                    <h3 class="font-semibold text-xl text-secondary mt-5 mb-5">Website Sistem Kredit Prestasi Mahasiswa </h3>
+                    <p class="font-medium text-base text-sky-50">I made this design with the team for the creation of the Narotama University student achievement credit system.</p>
+                    <a href="https://www.figma.com/file/XyXXluuMGzIcCol7rUTtfc/SIKREPMA?node-id=300%3A1008" class="text-secondary"> View</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- end portfolio -->
+    <!-- Skills section -->
+    <section id="skills" class="pt-36 pb-32" data-aos="fade-up" data-aos-duration="7000" data-aos-offset="300">
+        <div class="w-full px-4 mt-32">
+            <div class="max-w-full mx-auto text-center mb-16">
+                <h4 class="font-semibold text-lg text-secondary mb-4 lg:text-2xl">Tools and Skills</h4>
+            </div>
+
+            <div class="w-full px-4" data-aos="zoom-in" data-aos-duration="400">
+                <div class="flex flex-wrap items-center justify-center">
+                    <a href="#" class="max-w-[50px] mx-6 py-4 lg:mx-8 xl:mx-10">
+                    <img src="dist/img/Figma-logo.svg" alt="logo-figma">
+                    </a>
+
+                    <a href="#" class="max-w-[75px] mx-6 py-4 lg:mx-8 xl:mx-10">
+                    <img src="dist/img/640px-HTML5_logo_and_wordmark.svg.png" alt="logo-figma">
+                    </a>
+
+                    <a href="#" class="max-w-[60px] mx-6 py-4 lg:mx-8 xl:mx-10">
+                    <img src="dist/img/CSS3_logo_and_wordmark.svg.png" alt="logo-figma">
+                    </a> 
+
+                    <a href="#" class="max-w-[70px] mx-6 py-4 lg:mx-8 xl:mx-10">
+                    <img src="dist/img/1280px-Sass_Logo_Color.svg.png" alt="logo-figma">
+                    </a>
+
+                    <a href="#" class="max-w-[60px] mx-6 py-4 lg:mx-8 xl:mx-10">
+                    <img src="dist/img/Unofficial_JavaScript_logo_2.svg.png" alt="logo-figma">
+                    </a>
+
+                    <a href="#" class="max-w-[70px] mx-6 py-4 lg:mx-8 xl:mx-10">
+                        <img src="dist/img/Bootstrap_logo.svg.png" alt="logo-figma">
+                    </a>
+
+                    <a href="#" class="max-w-[70px] mx-6 py-4 lg:mx-8 xl:mx-10">
+                        <img src="dist/img/Tailwind_CSS_Logo.svg.png" alt="logo-figma">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Skills section-->
+    <!-- Sertifikat section -->
+    <section id="sertifikat" class="pt-36 pb-32" data-aos="fade-up" data-aos-duration="7000" data-aos-offset="300">
+        <div class="w-full px-4 mt-32">
+            <div class="max-w-xl mx-auto text-center mb-16">
+                <h4 class="font-semibold text-lg text-secondary mb-4 lg:text-2xl">Certificate</h4>
+            </div>
+
+            <div class="w-full px-4">
+                <div class="flex flex-warp items-center justify-center">
+                    <a href="#" class="max-w-[290px] mx-6 py-4 lg:mx-8 xl:mx-10" data-aos="fade-right" data-aos-duration="500">
+                        <img src="dist/img/sertif 1.jpg" alt="logo-figma">
+                    </a>
+                    <a href="#" class="max-w-[290px] mx-6 py-4 lg:mx-8 xl:mx-10" data-aos="fade-left" data-aos-duration="500">
+                        <img src="dist/img/sertif 2.jpg" alt="logo-figma">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end sertifikat section -->
+    <!-- contact section -->
+    <section id="contact" data-aos="fade-up" data-aos-duration="7000" data-aos-offset="300">
+        <div class="w-full px-4 pt-32">
+            <div class="max-w-xl mx-auto text-center mb-20">
+                <h4 class="font-semibold text-lg text-secondary mb-4 lg:text-2xl">Contact Me</h4>
+                <p class="font-regular text-white mt-10">I'm looking for new opportunities, my inbox is always open. Whether you have any questions or just want to say hello, I'll try my best to get back to you!.</p>
+                <div class="pt-10">
+                    <a href="https://wa.me/628815096519" class="p-2 rounded-lg border-2 border-secondary text-white hover:bg-secondary hover:text-primary">
+                    Message
+                    </a>
+            </div>
+            </div>
+        </div>
+    </section>
+    <!-- end contact section -->
+    <!-- foote section -->
+    <footer class="w-full px-4 pt-32 mx-auto text-center mb-10 text-white">
+        <h6><span class="opacity-50">Design and Development by</span> Azis Muhemin Tohari</h6>
+        <p>build with <span class="text-secondary">Tailwind CSS</span></p>
+    </footer>
+    <!-- end footer section -->
+    <!-- back to home -->
+    <a href="#home" class=" hidden fixed bottom-6 right-6 z-[9999] rounded-full h-14 w-14 justify-center items-center bg-secondary p-4 text-primary animate-bounce" id="to-top">
+        <svg xmlns="http://www.w3.org/2000/svg" class="fill-current" width="20" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M352 352c-8.188 0-16.38-3.125-22.62-9.375L192 205.3l-137.4 137.4c-12.5 12.5-32.75 12.5-45.25 0s-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25C368.4 348.9 360.2 352 352 352z"/></svg>
+    </a>
+    <!-- end back to home -->
+
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+    <script src="dist/js/script.js"></script>
+</body>
+</html>
